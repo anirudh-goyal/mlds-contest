@@ -1,0 +1,4 @@
+This is the order in which the files are run on an Octave-CLI: 
+- mlds.m (loads the data and calculates logistic regression weights)
+- testmodel.m (tests the model on a validation set)
+- actual_test.m (produces the output for the test set we had to upload on Kaggle)
